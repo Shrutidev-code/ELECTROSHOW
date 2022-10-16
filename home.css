@@ -1,0 +1,458 @@
+/* @import 'utility.css'; */
+
+body {
+    /* opacity: 0.7rem; */
+    /* background: linear-gradient(to right, rgba(192, 192, 192), rgb(248, 248, 255)); */
+    background-image: url("homebg.jpg");
+    /* background-color: #fff; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.main .demo {
+    /* font-size: 3rem; */
+    margin-top: 42px;
+    position: absolute;
+    top: -14px;
+    left: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.logo_side {
+    width: 80px;
+    height: 5rem;
+}
+
+.flex {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+.logo {
+    display: inline;
+    /* background-color: dimgray; */
+}
+
+
+/* .logo li {
+display: inline;
+} */
+
+.main li .fav {
+    margin-top: 20px;
+    float: right;
+    margin-right: 12px;
+    width: 12px;
+    height: 0px;
+    /* background-color: white; */
+}
+
+.main {
+    margin-left: 5px;
+    width: 95%;
+    background: linear-gradient(to right, rgba(192, 192, 192), rgb(128, 128, 128));
+    overflow: auto;
+}
+
+.main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+.main li {
+    float: right;
+}
+
+.main ul li a {
+    margin: 10px;
+    background-color: rgb(227, 219, 223);
+    text-decoration: none;
+    width: 130px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    border-radius: 12px;
+}
+
+.main li a:hover {
+    background: linear-gradient(45deg, #d78888, #e7a269, #edeb95, #79976d, #9ce7db, #002bff, #7a00ff, #ff00c8, #ff0000);
+    opacity: 0.5;
+    font-size: 19px;
+}
+
+.search_bar {
+    margin-top: 20px;
+    float: left;
+    margin-left: 250px;
+    position: inherit;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 22px solid black;
+    padding: 7px;
+    padding-left: 189px;
+    /* border-radius: 0 5px 5px 0; */
+    font-size: 16px;
+    font-family: sans-sarif;
+    /* background: transparent; */
+}
+
+button {
+    float: right;
+    height: 34px;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.logo .fav {
+    background-color: dimgray;
+}
+
+
+/*--------------------------------- footer ---------------------*/
+
+.footer-main {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* box-shadow: 0 1px 1px 0 rgba(109, 30, 30, 0.12);
+ */
+    background: linear-gradient(to right, rgba(192, 192, 192), rgb(128, 128, 128));
+    color: #fff;
+    /* padding: 120px 0 75px; */
+    /* border-top-left-radius: 125px; */
+    clip-path: polygon(0 0, 5% 0, 17.5% 30%, 25% 0, 100% 0%, 100% 100%, 0 100%);
+    font-size: 13px;
+    /* line-height: 20px; */
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 5px 2px;
+    margin-top: 90px;
+}
+
+
+/* .row { */
+
+
+/* flex-basis: 25%; */
+
+
+/* display: flex;
+flex-direction: row; */
+
+
+/* padding-left: 150px;
+list-style: none; */
+
+
+/* margin-left: 100px
+; */
+
+
+/* } */
+
+
+/* .connect {
+text-decoration: none;
+} */
+
+.footer-main .footer-left,
+.footer-main .footer-center,
+.footer-main .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-main .footer-left {
+    width: 40%;
+}
+
+.footer-main h3 {
+    /* color: var(--secondary); */
+    color: Black;
+    font: bold 36px 'sans-serif';
+    /* font-weight: 400; */
+    margin-bottom: 10px;
+    /* margin: 0; */
+}
+
+.footer-main .footer-links {
+    /* color: var(--secondary); */
+    margin: 20px 0 100x;
+    padding: 0;
+}
+
+.footer-main .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    /* text-decoration: none; */
+    color: inherit;
+}
+
+.footer-main .footer-links ul li a {
+    text-decoration: none;
+}
+
+.footer-main .footer-company-name {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-main .footer-center {
+    width: 35%;
+}
+
+.footer-main .footer-center i {
+    /* background-color: var(--box-background);
+color: var(--secondary); */
+    background-color: darkblue;
+    color: white;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+
+/* .footer-main .footer-center i.fa-user {
+    font-size: 17px;
+    line-height: 38px;
+} */
+
+.footer-main .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-main .footer-center p {
+    /* background-color: var(--box-background); */
+    /* color: var(--secondary); */
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-main .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-main .footer-center p a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-main .footer-right {
+    width: 15%;
+    margin-right: 12px;
+}
+
+.footer-main .footer-company-about {
+    line-height: 20px;
+    /* color: var(--secondary); */
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-main .footer-company-about span {
+    display: block;
+    /* color: var(--secondary); */
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.footer-main .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-main .footer-icons a {
+    display: inline-block;
+    width: 28px;
+    height: 35px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+
+/* -------------------------- slider */
+
+#main-body {
+    /* position: relative; */
+    height: 50vh;
+    width: 45%;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+*/ #main-body::-webkit-scrollbar {
+    background: transparent;
+    /* width: 0px; */
+}
+
+.slider {
+    overflow: hidden;
+    height: 400px;
+    width: 700px;
+    position: relative;
+    /* margin-left: 2px; */
+    /* margin-right: 0px; */
+    margin-bottom: 0px;
+    padding-top: 25px;
+    /* border-radius: 3px 7px 7px 3px; */
+    /* z-index: -1; */
+}
+
+
+/* .border_slide { 
+/* border-radius: 3px 7px 7px 3px; 
+border-radius: 12px solid black;
+border-color: #7a00ff;
+border-width: 12px;
+/* border: 5px solid #555; 
+}*/
+
+.slider figure div {
+    float: right;
+    width: 20%;
+    /* z-index: -1; */
+}
+
+.slider figure img {
+    width: 100%;
+    float: left;
+    height: 350px;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation: 20s slide infinite;
+}
+
+@keyframes slide {
+    0% {
+        left: 0%;
+    }
+    10% {
+        left: 0%;
+    }
+    12% {
+        left: -100%;
+    }
+    22% {
+        left: -100%;
+    }
+    24% {
+        left: -200%;
+    }
+    34% {
+        left: -200%;
+    }
+    36% {
+        left: -300%;
+    }
+    46% {
+        left: -300%;
+    }
+    48% {
+        left: -400%;
+    }
+    58% {
+        left: -400%;
+    }
+    60% {
+        left: -300%;
+    }
+    72% {
+        left: -200%;
+    }
+    82% {
+        left: -200%;
+    }
+    84% {
+        left: -100%;
+    }
+    94% {
+        left: -100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+
+/* -------------right side of slider */
+
+.category {
+    /* flex-direction: column; */
+    float: right;
+    /* justify-content: space-between; */
+}
+
+.category a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 300px;
+    text-decoration: none;
+    background-color: rgb(157, 223, 234);
+    width: 300px;
+    height: 40px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 15px 15px 15px 15px;
+    transition: width 2s;
+}
+
+.category a:hover {
+    width: 100px;
+    color: purple;
+}
+
+
+/*  */

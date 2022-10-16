@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html <SCRIPT>
+
+<body>
+
+    <!-- <h1 id="change">What Can JavaScript Do?</h1>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">
+Click Me!</button>
+    <button type="button" onclick="document.getElementById('change').innerHTML = 'result'">
+    Click Me not!</button> -->
+
+    <h1>JavaScript Can Change Images</h1>
+    <img id="myImage" src="images home/feedback.jpg" width="100" height="180">
+    <button type="button" onclick="document.getElementById('myImage').innerHTML=changeImage()">
+    click me</button>
+    <!-- <button type="button" onclick="document.getElementById('myImage').src='images home/pic13.jpg'">
+        click me</button> -->
+
+
+
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+
+            if (image.src.match("images home/feedback.jpg")) {
+                image.src = "images home/pic13.jpg";
+            }
+            if (image.src.match("images home/pic13.jpg")) {
+                image.src = "images home/feedback.jpg";
+            } else {
+                image.src = "images home/pic13.jpg";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
